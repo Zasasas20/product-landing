@@ -1,0 +1,122 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #dcd8d4;
+}
+
+.Header-Items, .Footer-Items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.Header{
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #c66c42;
+    border-color: #a9a8a9;
+    opacity: 80%;
+    flex-grow: 0;
+}
+
+.Header-Body-Image{
+    background-image: url(images/Rhine_Lab_HQ.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    min-height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Newsletter-Seperator{
+    text-align: center;
+    background-color: #6c6c3f;
+    color: whitesmoke;
+    font-family: 'Didact Gothic';
+}
+
+.Body{
+    display: flex;
+    flex-direction: column;
+}
+
+.News-Block-Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 18px;
+    gap: 30px;
+}
+
+.News-Block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 850px;
+    padding: 12px;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.News-Block:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.News-Block img{
+    max-width: 60%;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Didact Gothic';
+}
+
+.Footer-Title{
+    text-align: center;
+    border-bottom: black;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 90%;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+a{text-decoration: none; font-family: 'Didact Gothic';}
+
+.Header a{color: black;}
+.Footer a{color: black;}
+
+button{
+    background-color: #c66c42;
+    color: whitesmoke;
+    font-family: 'Didact Gothic';
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+}
+
+p{font-family: 'Didact Gothic';}
